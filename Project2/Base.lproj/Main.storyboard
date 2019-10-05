@@ -71,9 +71,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cfV-Qd-Nbo"/>
+                    <navigationItem key="navigationItem" id="cfV-Qd-Nbo">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="bookmarks" id="oza-9L-rGB"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="attemptLabel" destination="Njj-Sn-xo9" id="u2v-Eq-q6h"/>
+                        <outlet property="barButtonScore" destination="oza-9L-rGB" id="yf4-Us-cIS"/>
                         <outlet property="button1" destination="rAt-53-MeA" id="aQT-w4-wR2"/>
                         <outlet property="button2" destination="R72-QF-5aR" id="fxj-wB-xTT"/>
                         <outlet property="button3" destination="m9M-yj-IW7" id="jXR-0t-hvH"/>

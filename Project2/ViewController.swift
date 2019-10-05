@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     @IBOutlet var button3: UIButton!
     
     
+    @IBOutlet var barButtonScore: UIBarButtonItem!
+    
     //MARK: Text Label:
     
     @IBOutlet var scoreLabel: UILabel!
@@ -34,6 +36,10 @@ class ViewController: UIViewController {
     //MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    
+    
+        
         countries = ["estonia","france", "germany","ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
         
         button1.layer.borderWidth = 1
@@ -45,6 +51,7 @@ class ViewController: UIViewController {
         button3.layer.borderColor = UIColor.lightGray.cgColor
         
         askQuestion()
+        
         
     }
     
